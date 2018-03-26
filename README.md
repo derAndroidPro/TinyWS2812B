@@ -1,11 +1,16 @@
 # TinyWS2812B
 #### by David Augustat
-TinyWS2812B is a minimalist and easy to use Arduino library for controlling WS2812B adressable LEDs.
+TinyWS2812B is a minimalist and easy to use Arduino library for controlling WS2812B addressable LEDs.
 
-It works with all Atmega328-based Arduino microcontrollers including Arduino Uno, Nano and Pro Mini (5v).
+It works with all Atmega328-based Arduino microcontrollers including Arduino Uno, Nano and Pro Mini (5V).
 <br>The library is extremely small: It uses less than 1 kb of your Arduino's program storage space, which is about 3%.
+### Download the Library:
+[**DOWNLOAD LIBRARY HERE**](https://github.com/derAndroidPro/TinyWS2812B/raw/master/TinyWS2812B-Library_Version1-0.zip)
+<br>Download this ZIP file and install it using the Arduino IDE: 
+<br>Sketch -> Include Library -> Add .ZIP Library... -> Select this ZIP file
 
-### How to use this library:
+
+### How to use the Library:
 **Include the library in your sketch:**
 ```C
 #include <TinyWS2812B.h>

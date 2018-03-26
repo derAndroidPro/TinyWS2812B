@@ -87,7 +87,6 @@ void TinyWS2812B::setColor(int pos, byte r, byte g, byte b){
 }
 
 void TinyWS2812B::updateLeds(){
-  digitalWrite(13, LOW);
   cli(); // disable interrupts during writing
   for(int i = 0; i<numLeds; i++){
      writeByte(colorData[i+1][1]);
