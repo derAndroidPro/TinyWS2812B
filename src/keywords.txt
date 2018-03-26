@@ -1,0 +1,3 @@
+TinyWS2812B	KEYWORD1
+setColor	KEYWORD2
+updateLeds	KEYWORD2
